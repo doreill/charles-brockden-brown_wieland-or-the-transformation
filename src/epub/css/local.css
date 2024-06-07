@@ -58,6 +58,11 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -84,4 +89,9 @@ section[epub|type~="epigraph"] > *{
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }
